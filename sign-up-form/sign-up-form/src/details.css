@@ -1,8 +1,0 @@
-.Details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    min-height: 181px;
-    max-width: 713px;
-    position:relative;
-}
