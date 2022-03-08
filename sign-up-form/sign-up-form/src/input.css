@@ -1,0 +1,19 @@
+:root input{
+    --input-spacing: 1vw;
+}
+
+.fn, .ln, .email, .phone, .password, .confpass{
+    margin:var(--input-spacing)
+}
+label{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+    color: #82584F;
+}
+label input:hover{
+    box-shadow: 0 0 0 4px #BB4742;
+       
+}

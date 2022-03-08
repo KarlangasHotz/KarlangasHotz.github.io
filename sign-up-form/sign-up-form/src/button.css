@@ -1,0 +1,43 @@
+@keyframes button{
+    0% {background-color: #FF3333;left: 0px;top: 0px;}
+    30% {background-color: #B93543;}
+    50%{background-color: #8B364E;}
+    80%{background-color: #46385F;}
+    100%{background-color: #003A6F;left: 0px;top: 0px;}
+    
+}
+
+
+div .btn{
+    
+    background-color: #FF3333;
+    color: seashell;
+    width: 30%;
+    height: 4%;
+    align-self: center;
+    border-width: 0;
+    border-radius: 30px;
+    max-width: 156px;
+    
+}
+
+
+div .btn:hover{   
+    
+    animation-name: button;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    align-self: center;
+    box-shadow:  0 0 0 10px #D568A8;
+
+}
+
+
+
+
+
+
+
+
+
+
